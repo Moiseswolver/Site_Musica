@@ -17,16 +17,7 @@
                     <nav>
                         <ul>
                             <li class="active"><a href="">HOME</a></li>
-                            <li ><a href="">INSTRUMENTOS</a>
-                                <ul class="subMenu">
-                                    <li ><a href="">GUITARRA</a></li>
-                                    <li ><a href="">VIOLÃO</a></li>
-                                    <li ><a href="">BAIXO</a></li>
-                                    <li ><a href="">BATERIA</a></li>
-                                    <li ><a href="">TECLADO</a></li>
-                                    <li ><a href="">UKULELE</a></li>
-                                </ul>
-                            </li>
+                            <li ><a href="">INSTRUMENTOS</a></li>
                             <li><a href="">QUEM SOU</a></li>
                             <li><a href="">CONTATOS</a></li>
                         </ul>
@@ -34,12 +25,15 @@
                 </div>    
         </div>
     </header>
+
     <section id="banner">
+
         <div class="container column">
             <div class="banner_titulo">
                 <h1>A.S.A</h1>
                 <h2>INSTITUTO DE MUSICALIZAÇÃO</h2>
             </div>
+
             <div class="banner_informacoes">
                 <div class="infor_left">
                     Lorem ipsum platea nullam donec eget malesuada nostra morbi, 
@@ -68,18 +62,17 @@
                     morbi ullamcorper pellentesque iaculis mollis malesuada curae purus ullamcorper volutpat nisi.
                 </div>
             </div>
-            <div class="Area_videos column">
 
+            <div class="Area_videos column">
                 <div class="slide column">
                     <video class="aulas" src="/video/Effects.mp4" controls></video>
                     <div class="">aula sobre notas musicais</div>
                 </div>
-
             </div>
                     
             <div class="banner_instrumentos">
-                <a href="">
-                    <div class="instrumentos">
+                <a href="/pagina_guitarra/paginaGuitarra.html" target="_blank">
+                    <div class="instrumentos" >
                         GUITARRA
                     </div>
                 </a>
@@ -108,6 +101,25 @@
                         UKULELE
                     </div>
                 </a>
+            </div>
+
+            <div class="cadastro column">
+                <h2>Cadastre para receber Novidades e Promoções</h2>
+                <form action="/login.html" method="POST">
+
+                    <label>
+                        Digite seu Nome: <br>
+                        <input type="tel" name="telefone" > 
+                    </label> <br> <br>
+
+                    <label>
+                        Digite seu Telefone: <br>
+                        <input type="text" name="text" > 
+                    </label> <br> <br>
+
+                    <input class="btn" type="submit" value="Cadastrar" >
+                       
+                </form>
             </div>
         </div>
     </section>
